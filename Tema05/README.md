@@ -66,19 +66,19 @@ Al iniciar, la aplicación muestra el menú. Selecciona una opción escribiendo 
  
 **1. Registrar una reserva**
  
-![Registrar reserva](docs/capturas/01-registrar.png)
+![Registrar reserva](reservas_hotel/docs/capturas/01-registrar.png)
  
 **2. Mostrar todas las reservas**
  
-![Mostrar reservas](docs/capturas/02-mostrar.png)
+![Mostrar reservas](reservas_hotel/docs/capturas/02-mostrar.png)
  
 **3. Buscar reservas por aula**
  
-![Buscar por aula](docs/capturas/03-buscar.png)
+![Buscar por aula](reservas_hotel/docs/capturas/03-buscar.png)
  
 **4. Eliminar una reserva**
  
-![Eliminar reserva](docs/capturas/04-eliminar.png)
+![Eliminar reserva](reservas_hotel/docs/capturas/04-eliminar.png)
  
 ### Persistencia de los datos tras recrear el contenedor
  
@@ -91,7 +91,7 @@ docker compose up -d     # lo crea de nuevo
  
 Después, al ejecutar la opción 2 del menú, las reservas siguen estando:
  
-![Persistencia de datos](docs/capturas/05-persistencia.png)
+![Persistencia de datos](reservas_hotel/docs/capturas/05-persistencia.png)
  
 ## Detener el entorno
  
